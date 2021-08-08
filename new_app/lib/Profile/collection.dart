@@ -160,6 +160,12 @@ class Collection extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.account_circle),
+            onPressed: () {
+              Navigator.pushNamed(context, '/profile');
+            },
+          ),
           shadowColor: Colors.white,
           title: Text("Collection"),
           centerTitle: true,
@@ -181,3 +187,4 @@ class Collection extends StatelessWidget {
         ));
   }
 }
+
