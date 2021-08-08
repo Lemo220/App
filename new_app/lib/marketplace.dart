@@ -203,6 +203,12 @@ class _MarketPlaceState extends State<MarketPlace> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.account_circle),
+            onPressed: () {
+              Navigator.pushNamed(context, '/profile');
+            },
+          ),
           actions: <Widget>[
             IconButton(
               onPressed: () {
