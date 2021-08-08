@@ -1,30 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'Create_account.dart';
-import 'MainPage.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Signatures!',
-      theme: ThemeData(
-          brightness: Brightness.dark,
-          primaryColor: Colors.grey[850],
-          accentColor: Colors.black,
-          fontFamily: 'Georgia'),
-      home: MyHomePage(),
-      routes: {
-        // When navigating to the "/" route, build the FirstScreen widget.
-        '/first': (context) => Create_account_page(),
-        // When navigating to the "/second" route, build the SecondScreen widget.
-        '/second': (context) => MainPageMainMenu(),
-      },
-    );
-  }
-}
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -63,15 +38,20 @@ class welcome extends StatelessWidget {
             ),
           ],
         ),
-        Row(
-          children: [
-            Text(
-              "Give me your login and password to sign in.",
-              textAlign: TextAlign.left,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(fontWeight: FontWeight.w300, fontSize: 15),
-            ),
-          ],
+        Container(
+          alignment: Alignment.centerLeft,
+          width: MediaQuery.of(context).size.width,
+          child: Row(
+            children: [
+              Text(
+                "Insert login and password to sign in.",
+                textAlign: TextAlign.left,
+                overflow: TextOverflow.ellipsis,
+                style:
+                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+              ),
+            ],
+          ),
         ),
       ],
     );

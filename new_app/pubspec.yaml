@@ -1,4 +1,4 @@
-name: new_app
+name: SzyszkoDisco
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -29,21 +29,38 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_signin_button: ^2.0.0
+  carousel_slider: ^4.0.0
+  bordered_text: ^2.0.0
+  favorite_button: ^0.0.4
+  rainbow_color: ^2.0.1
+  flutter_cart: ^0.0.6
+  flutter_search_bar: ^2.1.0
+  material_floating_search_bar: ^0.3.4
+  image_picker: ^0.8.3
+  easy_gradient_text: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icon.png
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
