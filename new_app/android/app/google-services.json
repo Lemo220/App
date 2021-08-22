@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039735120297",
+    "project_id": "szyszkodisco",
+    "storage_bucket": "szyszkodisco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039735120297:android:a5dbb6551adce46eba64b8",
+        "android_client_info": {
+          "package_name": "com.example.new_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039735120297-c444u2s78hsaokl5p85j4sebnmea97cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsC6v_Q8p5BAIq1RKC0ihGF3wxYsxO4k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039735120297-c444u2s78hsaokl5p85j4sebnmea97cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
